@@ -1,0 +1,17 @@
+{
+  "name": "near-hello-world",
+  "version": "1.0.0",
+  "scripts": {
+    "contract:build": "cd contract && ./build.sh",
+    "contract:deploy:dev": "cd contract && ./deploy-dev.sh",
+    "contract:deploy:prod": "cd contract && ./deploy.sh",
+    "contract:test": "cd contract && cargo test"
+  },
+  "engines": {
+    "node": "^16.13 || ^18.12",
+    "pnpm": ">=8.5.0"
+  },
+  "dependencies": {
+    "near-cli": "3.4.2"
+  }
+}
