@@ -10,8 +10,22 @@ NEAR Hello World
 
 ## Usage
 
+Install dependencies
+
 ```
 pnpm install
+```
+
+Build a contract
+
+```
+pnpm contract:build
+```
+
+Deploy a contract to testnet
+
+```
+pnpm contract:deploy
 ```
 
 ---
