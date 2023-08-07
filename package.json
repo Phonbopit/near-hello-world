@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "contract:build": "cd contract && ./build.sh",
-    "contract:deploy:dev": "cd contract && ./deploy-dev.sh",
+    "contract:deploy": "cd contract && ./deploy-dev.sh",
     "contract:deploy:prod": "cd contract && ./deploy.sh",
     "contract:test": "cd contract && cargo test"
   },
